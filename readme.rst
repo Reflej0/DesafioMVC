@@ -1,53 +1,27 @@
 ###################
-DesafioMVC
+DesafioMVC versión WEB
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+El proyecto DesafioMVC tiene como objetivo realizar un sistema web ABM(Alta, Baja, Modificacion) con relación a los alumnos, cursadas y materias de una universidad. Las siglas MVC significa Modelo-Vista-Controlador, el cual es un diseño de software que se basa en dividir en 3 capas, las mencionadas anteriormente, para así tener una programación mas organizada y legible.
 
 *******************
-Release Information
+Framework del Proyecto
 *******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+El proyecto fue desarrollado utilizando CodeIgniter un framework de desarrollo el cual se puede acoplar a un programa de entorno de desarrollo como Netbeans, para hacer mas intuitivo la programación.
+Al ser un desarrollo web se utiliza HTML, CSS, PHP, JS.
 
 ************
-Installation
+Instalación y Prueba del Proyecto
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Para probar el proyecto se debe tener instalado el XAMPP, con los modulos Apache y MYSQL activos. Se deberá crear una carpeta en el directorio C:\\xampp\\htdocs llamada DesafioMVC, quedando el directorio C:\\xampp\\htdocs\\DesafioMVC. Una vez realizado esto se debe importar la base de datos indicada en DesafioMVC\\bd mediante el Phpmyadmin. Finalmente mediante cualquier navegador se deberá acceder a http://localhost/DesafioMVC donde se encontrará la pantalla de Login de Usuarios.
+*En el proyecto se encuentra un archivo Probar Usuarios.txt el cual se especifican los usuarios creados y los privilegios de cada uno.
 
 *******
-License
+Finalidad del proyecto
 *******
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+El proyecto tiene como finalidad, la compresión 
 
 *********
 Resources
@@ -63,8 +37,7 @@ Report security issues to our `Security Panel <mailto:security@codeigniter.com>`
 or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
 ***************
-Acknowledgement
+Contacto
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Para realizar algún contacto
