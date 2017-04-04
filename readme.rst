@@ -17,6 +17,7 @@ Instalación y Prueba del Proyecto
 
 Para probar el proyecto se debe tener instalado el XAMPP, con los modulos Apache y MYSQL activos. Se deberá crear una carpeta en el directorio C:\\xampp\\htdocs llamada DesafioMVC, quedando el directorio C:\\xampp\\htdocs\\DesafioMVC. Una vez realizado esto se debe importar la base de datos indicada en DesafioMVC\\bd mediante el Phpmyadmin. Finalmente mediante cualquier navegador se deberá acceder a http://localhost/DesafioMVC donde se encontrará la pantalla de Login de Usuarios.
 *En el proyecto se encuentra un archivo Probar Usuarios.txt el cual se especifican los usuarios creados y los privilegios de cada uno.
+
 *******************
 Finalidad del proyecto
 *******************
