@@ -1,0 +1,29 @@
+Usuario: Juan_Perez
+Contrasena: yuPI34
+Tipo: Administrador
+Estado: ACTIVO.
+LOGEA EN ADMINISTRADOR
+
+Usuario: Sergio_Rodriguez
+Contrasena: reQU79
+Tipo: Administrador
+Estado: INACTIVO.
+NO LOGEA POR INACTIVIDAD.
+
+Usuario: Rodrigo_Escobar
+Contrasena: 123456
+Tipo: Alumno(Invitado).
+Estado: ACTIVO.
+LOGEA Y APROBO 3 MATERIAS DE INGENIERIA MECANICA.
+
+Usuario: Matias_Ramirez
+Contrasena: 654321
+Tipo: Alumno(Invitado).
+Estado: INACTIVO.
+NO LOGEA POR INACTIVIDAD.
+
+Usuario: Pedro_Enrique
+Contrasena: asd1234
+Tipo: Alumno(Invitado).
+Estado: ACTIVO
+LOGEA Y APROBO 2 MATERIAS DE INGENIERIA INFORMATICA.

@@ -1,0 +1,19 @@
+.modify {
+	background-color: #008CBA;
+	font-variant: small-caps;
+	color: white;
+}
+.delete{
+	background-color: #f44336;
+	font-variant: small-caps;
+	color: white;
+}
+.add{
+	border-radius: 40px;
+	font-variant: small-caps;
+	background-color: #4CAF50;
+	color: white;
+}
+.letter{
+	font-variant: small-caps;
+}
