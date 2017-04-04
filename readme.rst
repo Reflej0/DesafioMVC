@@ -1,70 +1,37 @@
 ###################
-What is CodeIgniter
+DesafioMVC versión WEB
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+El proyecto DesafioMVC tiene como objetivo realizar un sistema web ABM(Alta, Baja, Modificacion) con relación a los alumnos, cursadas y materias de una universidad. Las siglas MVC significa Modelo-Vista-Controlador, el cual es un diseño de software que se basa en dividir en 3 capas, las mencionadas anteriormente, para así tener una programación mas organizada y legible.
 
 *******************
-Release Information
+Framework del Proyecto
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+El proyecto fue desarrollado utilizando CodeIgniter un framework de desarrollo el cual se puede acoplar a un programa de entorno de desarrollo como Netbeans, para hacer mas intuitivo la programación.
+Al ser un desarrollo web se utiliza HTML, CSS, PHP, JS.
 
 **************************
-Changelog and New Features
+Instalación y Prueba del Proyecto
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
+Para probar el proyecto se debe tener instalado el XAMPP, con los modulos Apache y MYSQL activos. Se deberá crear una carpeta en el directorio C:\\xampp\\htdocs llamada DesafioMVC, quedando el directorio C:\\xampp\\htdocs\\DesafioMVC. Una vez realizado esto se debe importar la base de datos indicada en DesafioMVC\\bd mediante el Phpmyadmin. Finalmente mediante cualquier navegador se deberá acceder a http://localhost/DesafioMVC donde se encontrará la pantalla de Login de Usuarios.
+*En el proyecto se encuentra un archivo Probar Usuarios.txt el cual se especifican los usuarios creados y los privilegios de cada uno.
 *******************
-Server Requirements
+Finalidad del proyecto
 *******************
 
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+El proyecto tiene como finalidad la realización de un sistema de altas, bajas, modificaciones y listado de las entidades de una universidad(alumno, materias y cursadas). Además de contar con un sistema de autenticacíon de usuarios(alumno/profesor) los cuales tienen distintos accesos y atributos. La parte estética no tuvo demasiada relevancia, dandolé prioridad al funcionamiento óptimo del sistema.
 
 ************
-Installation
+Archivos Externos
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Los archivos externos como los .JS y .CSS se encuentran alojados en un servidor de Dropbox, esto permite no tener inconvenientes con los archivos locales, pero en algunas ocasiones disminuyen el rendimiento.
 
 *******
-License
+Contacto
 *******
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Para realizar algún contacto con respecto al proyecto:
+Reflejo: tocinonaro_juan@yahoo.com.ar
