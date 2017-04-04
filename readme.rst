@@ -6,6 +6,7 @@ El proyecto DesafioMVC tiene como objetivo realizar un sistema web ABM(Alta, Baj
 
 *******************
 Framework del Proyecto
+
 *******************
 El proyecto fue desarrollado utilizando CodeIgniter un framework de desarrollo el cual se puede acoplar a un programa de entorno de desarrollo como Netbeans, para hacer mas intuitivo la programación.
 Al ser un desarrollo web se utiliza HTML, CSS, PHP, JS.
@@ -21,23 +22,17 @@ Para probar el proyecto se debe tener instalado el XAMPP, con los modulos Apache
 Finalidad del proyecto
 *******
 
-El proyecto tiene como finalidad, la compresión 
+El proyecto tiene como finalidad la realización de un sistema de altas, bajas, modificaciones y listado de las entidades de una universidad(alumno, materias y cursadas). Además de contar con un sistema de autenticacíon de usuarios(alumno/profesor) los cuales tienen distintos accesos y atributos. La parte estética no tuvo demasiada relevancia, dandolé prioridad al funcionamiento óptimo del sistema.
 
 *********
-Resources
+Archivos Externos
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+Los archivos externos como los .JS y .CSS se encuentran alojados en un servidor de Dropbox, esto permite no tener inconvenientes con los archivos locales, pero en algunas ocasiones disminuyen el rendimiento.
 
 ***************
 Contacto
 ***************
 
-Para realizar algún contacto
+Para realizar algún contacto con respecto al proyecto:
+Reflejo: tocinonaro_juan@yahoo.com.ar
