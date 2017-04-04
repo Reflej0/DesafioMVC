@@ -22,11 +22,13 @@ Para probar el proyecto se debe tener instalado el XAMPP, con los modulos Apache
 Versión ONLINE
 *******************
 
-Actualmente la versión 1, la cual no trae incorporada las sesiones de alumnos y administradores, y las cursadas se encuentran online en internet para visualizar sin instalar:
+Actualmente la versión 1, la cual no trae incorporada las sesiones de alumnos y administradores, y las cursadas. Se encuentra online en internet para visualizar sin instalar:
 http://desafio1-reynoso-tocino-vitale.epizy.com/
 
 Usuario: Administrador
 Contraseña: 123456
+Usuario: invitado
+Contraseña: invitado
 
 *******************
 Finalidad del proyecto
