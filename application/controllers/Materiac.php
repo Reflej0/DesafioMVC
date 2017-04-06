@@ -1,7 +1,7 @@
 <html>
 <head>
-<link rel="stylesheet" href="https://www.dropbox.com/s/tkh34n4e5wb86fh/buttons.css?dl=1" type="text/css" media="all">
-<link rel="stylesheet" href="https://www.dropbox.com/s/epz46flzm8sejg7/w3.css?dl=1" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo LAYOUT_URL;?>buttons.css" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo LAYOUT_URL;?>w3.css" type="text/css" media="all">
 </head>
 </html>
 <?php

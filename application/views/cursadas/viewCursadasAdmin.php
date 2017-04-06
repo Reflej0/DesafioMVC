@@ -1,9 +1,9 @@
 <html>   
     <head>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://www.dropbox.com/s/tkh34n4e5wb86fh/buttons.css?dl=1" type="text/css" media="all">
-        <link rel="stylesheet" href="https://www.dropbox.com/s/epz46flzm8sejg7/w3.css?dl=1" type="text/css" media="all">
-        <script src="https://www.dropbox.com/s/la1lun5k4fctuht/jquery.redirect.js?dl=1"></script>
+        <link rel="stylesheet" href="<?php echo LAYOUT_URL;?>buttons.css" type="text/css" media="all">
+        <link rel="stylesheet" href="<?php echo LAYOUT_URL;?>w3.css" type="text/css" media="all">
+        <script src="<?php echo JS_URL;?>jquery.redirect.js"></script>
 <script>
 var decision; // Decision corresponde a la opcion del listbox seleccionada.
 function showUsuarios() { // Esta es la funcion principal que muestra las materias a medida que el listbox cambia de opcion. 
