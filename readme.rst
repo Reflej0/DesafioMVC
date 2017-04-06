@@ -22,13 +22,10 @@ Para probar el proyecto se debe tener instalado el XAMPP, con los modulos Apache
 Versión ONLINE
 *******************
 
-Actualmente la versión 1, la cual no trae incorporada las sesiones de alumnos y administradores, y las cursadas. Se encuentra online en internet para visualizar sin instalar:
-http://desafio1-reynoso-tocino-vitale.epizy.com/
+Se encuentra online en internet para visualizar sin instalar:
+http://desafiomvc.epizy.com/DesafioMVC
 
-Usuario: Administrador
-Contraseña: 123456
-Usuario: invitado
-Contraseña: invitado
+Leer el archivo Probar Usuarios.txt para obtener informacion del login.
 
 *******************
 Finalidad del proyecto
