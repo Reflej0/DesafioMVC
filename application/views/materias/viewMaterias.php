@@ -4,7 +4,7 @@
 <html>   
     <head>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://www.dropbox.com/s/la1lun5k4fctuht/jquery.redirect.js?dl=1"></script>
+        <script src="<?php echo JS_URL;?>jquery.redirect.js"></script>
 <script>
 var decision; // Decision corresponde a la opcion del listbox seleccionada.
 function showMaterias(ID_Carrera) { // Esta es la funcion principal que muestra las materias a medida que el listbox cambia de opcion.  

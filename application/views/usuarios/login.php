@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://www.dropbox.com/s/tkh34n4e5wb86fh/buttons.css?dl=1" type="text/css" media="all">
-<link rel="stylesheet" href="https://www.dropbox.com/s/epz46flzm8sejg7/w3.css?dl=1" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo LAYOUT_URL;?>buttons.css" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo LAYOUT_URL;?>w3.css" type="text/css" media="all">
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://www.dropbox.com/s/la1lun5k4fctuht/jquery.redirect.js?dl=1"></script>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
+<script src="<?php echo JS_URL;?>jquery.redirect.js"></script>
+<link rel="icon" type="image/x-icon" href="css/favicon.ico">
 </head>
 <style>
 /* Full-width input fields */

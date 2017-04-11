@@ -26,7 +26,7 @@ foreach($materias as $row){
 }
 ?>
 </select>
-<td><input type="text" class="form-control" id="nota" name="nota" onKeyPress="return validarNumeros(event);"/>
+<td><input type="text" class="form-control" id="nota" name="nota" onKeyPress="return validarNumeros(event);" onpaste="return false"/>
 <td><button type="submit" class="modify" id="agregar_mate" onClick="agregarcursada(id_Usuario.value,id_Materia.value,nota.value);"> Agregar </button> 
 </body>
 </html>

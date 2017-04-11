@@ -68,4 +68,9 @@ class Cursadac extends CI_Controller{
         $nota = $_POST['n'];
         $this->cursadas->add($ID_Usuario, $ID_Materia, $nota); // Invoco a la funcion add del modelo que realiza la accion y no devuelve nada obvio.
     }
+    public function EnviarMail(){ // La gran parte del controlador deberia estar en el modelo.
+        $mail = $_POST['mail'];
+        $datos = $_POST['datos'];
+        $this->cursadas->enviarmail($mail, $datos);
+    }
 }

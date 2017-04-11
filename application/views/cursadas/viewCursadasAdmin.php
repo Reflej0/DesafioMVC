@@ -67,6 +67,10 @@ i = id_usuario
 m = id_materia
 n = nota
 */
+if(n>10 || n<=0){
+    alert("Valor de nota no aceptado")
+    return;
+}
 if(i == "" || m == "" || n == "" ){ // Validación antes de UPDATE en SQL.
     alert("No pueden existir campos en blancos.")
     return;
@@ -118,6 +122,10 @@ function aceptar(id, n){ // Esta funcion recibe los datos de la anterior y manda
 id = id_cursada
 n = nota
 */
+if(n>10 || n<=0){
+    alert("Valor de nota no aceptado")
+    return;
+}
 if(n == ""){ // Validación antes de UPDATE en SQL.
     alert("La nota de la cursada no puede estar vacia")
     return;

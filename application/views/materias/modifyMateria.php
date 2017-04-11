@@ -19,8 +19,8 @@ echo "<tr>";
                 <option value="6">Ingenieria Civil</option>
                 <option value="7">Desarrollo Web</option>
                 <option value="8">Sonido y Grabacion</option>';
-    echo "<td>" . '<input type="text" class="form-control" id="nombre" name="nombre" placeholder="'. $row['nombre'] . '" onKeyPress="return validarLetras(event);"/>';
-    echo "<td>" . '<input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="'. $row['descripcion'] . '" onKeyPress="return validarLetras(event);"/>';
+    echo "<td>" . '<input type="text" class="form-control" id="nombre" name="nombre" placeholder="'. $row['nombre'] . '" onKeyPress="return validarLetras(event);" onpaste="return false"/>';
+    echo "<td>" . '<input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="'. $row['descripcion'] . '" onKeyPress="return validarLetras(event);" onpaste="return false"/>';
     echo "<td>" . '<select name="carga_horaria" class="form-control" id="carga_horaria" name="carga_horaria"/>';
     echo    '<option value="2">2</option>
         <option value="4">4</option>

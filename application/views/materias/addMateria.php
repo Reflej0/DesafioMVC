@@ -19,8 +19,8 @@
 <option value="6">Ingenieria Civil</option>
 <option value="7">Desarrollo Web</option>
 <option value="8">Sonido y Grabacion</option>
-<td><input type="text" class="form-control" id="nombre" name="nombre" onKeyPress="return validarLetras(event);"/>
-<td><input type="text" class="form-control" id="descripcion" name="descripcion" onKeyPress="return validarLetras(event);"/>
+<td><input type="text" class="form-control" id="nombre" name="nombre" onKeyPress="return validarLetras(event);" onpaste="return false" />
+<td><input type="text" class="form-control" id="descripcion" name="descripcion" onKeyPress="return validarLetras(event);" onpaste="return false"/>
 <td><select name="carga_horaria" id="carga_horaria"/>
 <option value="2">2</option>
 <option value="4">4</option>

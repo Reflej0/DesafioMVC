@@ -30,4 +30,27 @@ function modify($id, $nota){
 );
        $this->db->update('cursadas', $datos, array('id' => $id));
     }
+    function enviarmail($mail, $datos){
+        $config = array(
+			'protocol' => 'smtp',
+			'smtp_host' => 'smtp-mail.outlook.com',
+			'smtp_port' => 587,
+			'smtp_user' => 'desafio.mvc@outlook.com',
+                        'smtp_timeout' => '60',
+                        'charset' => 'iso-8859-1',
+                        'smtp_crypto' => 'tls',
+			'smtp_pass' => 'desafio1234',
+			'mailtype' => 'html',
+			'charset' => 'utf-8',
+			'newline' => "\r\n"
+		);    
+ 
+		$this->email->initialize($config);
+ 
+		$this->email->from('desafio.mvc@outlook.com');
+		$this->email->to($mail);
+		$this->email->subject("Resultado de sus cursadas");
+		$this->email->message($datos);
+		$this->email->send();
+    }
 }
