@@ -24,13 +24,15 @@ class Cursadac extends CI_Controller{
     $Usuario= $_POST['usuario_id']; //Obtengo los parametros de la llamada a traves Ajax.
     $cursadas=$this->cursadas->getcursadas($Usuario); // Invoco a la funcion listar del modelo y almaceno el resultado en la variable materias.
     $data['cursadas']=$cursadas; // Defino que argumentos voy a pasar a la vista.
+    $data['usuario_id'] = $Usuario;
     $this->load->view('cursadas/viewCursadas.php', $data); // Voy a la vista.s
     }
     public function indexadmin(){ // Cuando un administrador accede al ABM de cursadas.
     $usuarios= $this->usuarios->getalumnos(); // Obtengo todos los alumnos activos.
+    $mensajes = $this->cursadas->getmensajes(); // Obtengo todos los mensajes.
     $data['usuarios'] = $usuarios; // Los preparo para llevar a la vista.
+    $data['mensajes'] = $mensajes; // Los preparo para llevar a la vista.
     $this->load->view('cursadas/viewCursadasAdmin', $data); // Voy a la vista y le paso los alumnos.
-    
     }
     public function getCursadasUsuario(){ // Esta funcion es llamada desde la vista, donde el usuario ya esta validado de que esta activo.
     $Usuario= $_POST['Usuario']; //Obtengo los parametros de la llamada a traves Ajax.
@@ -72,5 +74,10 @@ class Cursadac extends CI_Controller{
         $mail = $_POST['mail'];
         $datos = $_POST['datos'];
         $this->cursadas->enviarmail($mail, $datos);
+    }
+    public function EnviarMensajeAlumno(){
+        $mensaje = $_POST['mensaje'];
+        $usuario_id = $_POST['usuario_id'];
+        $this->cursadas->enviarmensajealumno($mensaje, $usuario_id);
     }
 }

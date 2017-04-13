@@ -53,4 +53,21 @@ function modify($id, $nota){
 		$this->email->message($datos);
 		$this->email->send();
     }
+    function enviarmensajealumno($mensaje, $usuario_id){
+        $data = array(
+            'emisor' => $usuario_id,
+            'contenido' =>$mensaje,
+            'receptor' => 1, //Por Default el administrador.
+            'leido' => 0,
+        );
+        $this->db->insert('mensajes', $data);
+    }
+    function getmensajes(){
+        $sql = "SELECT M.contenido, U.usuario FROM mensajes M LEFT JOIN usuarios U ON U.id = M.receptor WHERE M.leido = 0"; //Armo la consulta.
+        $datos = $this->db->query($sql); //Obtengo los mensajes.
+        $this->db->set('leido', '1', FALSE);
+        $this->db->where('receptor', 1);
+        $this->db->update('mensajes');
+        return $datos->result_array(); //Retorno el resultado de la consulta como un result_array mas facil de manejar.
+    }
 }

@@ -155,3 +155,11 @@ function validarNumeros(event){ // La validación funciona en IE, Firefox, Chrom
         }
     }
 </script>
+
+<?php //Con esta funcion imprimo los mensajes de los usuarios.
+foreach($mensajes as $row){
+    echo '<script languaje="JavaScript">
+      alert("Alumno:'.$row['usuario'].'\nMensaje:'.$row['contenido'].'");
+</script>';
+}
+?>
