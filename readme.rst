@@ -2,8 +2,7 @@
 DesafioMVC versión WEB
 ###################
 
-El proyecto DesafioMVC tiene como objetivo realizar un sistema web ABM(Alta, Baja, Modificacion) con relación a los alumnos, cursadas y materias de una universidad. Las siglas MVC significa Modelo-Vista-Controlador, el cual es un diseño de software que se basa en dividir en 3 capas, las mencionadas anteriormente, para así tener una programación mas organizada y legible.
-*El proyecto esta FINALIZADO(no acepta nuevos cambios) 12/04 las últimas funciones agregadas fueron envío de mail y envío de alumno -> administrador.
+El proyecto DesafioMVC tuvo como objetivo realizar un sistema web ABM(Alta, Baja, Modificacion) con relación a los alumnos, cursadas y materias de una universidad. Las siglas MVC significa Modelo-Vista-Controlador, el cual es un diseño de software que se basa en dividir en 3 capas, las mencionadas anteriormente, para así tener una programación mas organizada y legible.
 
 *******************
 Framework del Proyecto
