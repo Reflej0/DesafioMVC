@@ -24,7 +24,7 @@ Versión ONLINE
 *******************
 
 Se encuentra online en internet para visualizar sin instalar:
-http://desafiomvc.epizy.com/DesafioMVC
+http://reflejo.epizy.com/DesafioMVC/
 
 Leer el archivo Probar Usuarios.txt para obtener informacion del login.
 
